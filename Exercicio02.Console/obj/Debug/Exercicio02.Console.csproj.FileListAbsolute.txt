@@ -1,0 +1,6 @@
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Exercicio02.Console\bin\Debug\Exercicio02.Console.exe.config
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Exercicio02.Console\bin\Debug\Exercicio02.Console.exe
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Exercicio02.Console\bin\Debug\Exercicio02.Console.pdb
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Exercicio02.Console\obj\Debug\Exercicio02.Console.exe
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Exercicio02.Console\obj\Debug\Exercicio02.Console.pdb
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Exercicio02.Console\obj\Debug\Exercicio02.Console.csprojResolveAssemblyReference.cache

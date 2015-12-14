@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Rh.Presentation.Web.UI.ViewModels.VagaViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Vagas</h2>
+
+<p>
+    @Html.ActionLink("Cadastrar nova vaga", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CandidatoId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CandidatoId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CandidatoId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,143 @@
+﻿
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #dc4646;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#background {
+    background-image: url(../Images/logo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    opacity: 0.1;
+}
+
+#logo {
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+#logo, 
+.menu-link {
+    color: #ffffff;
+}
+
+.menu-container {
+    /*background-color: #ef565a;*/
+    border-color: #db454a;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c63f41+0,ff5b5e+100 */
+    background: rgb(198,63,65); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(198,63,65,1) 0%, rgba(255,91,94,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(198,63,65,1) 0%,rgba(255,91,94,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(198,63,65,1) 0%,rgba(255,91,94,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c63f41', endColorstr='#ff5b5e',GradientType=0 ); /* IE6-9 */
+
+}
+
+.selected {
+    background-color: #dc4646 !important;
+}
+
+.body-content {
+    position: relative;
+    top: 30px;
+}
+
+.body-content h2 {
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.body-content p {
+    margin-bottom: 30px;
+}
+
+.body-content p a {
+    background-color: #ef565a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.body-content p a:hover {
+    background-color: #db454a;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.back-to-list a {
+    float: right;
+    background-color: #ef565a;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.back-to-list a:hover {
+    background-color: #db454a;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.form-pessoal label, .form-habilidades label {
+    padding-top: 6px;
+}
+
+.form-pessoal div, .form-habilidades div {
+    margin-bottom: 10px;
+}
+
+.tecnologias-selecionadas {
+    float: right;
+}
+
+#SelectTecnologia select {
+    float: left;
+    margin-right: 10px;
+}
+
+.button-submit {
+    padding-right: 25px;
+}

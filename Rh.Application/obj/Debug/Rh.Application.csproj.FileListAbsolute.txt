@@ -1,0 +1,7 @@
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Application\bin\Debug\Rh.Application.dll
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Application\bin\Debug\Rh.Application.pdb
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Application\bin\Debug\Rh.Domain.dll
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Application\bin\Debug\Rh.Domain.pdb
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Application\obj\Debug\Rh.Application.dll
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Application\obj\Debug\Rh.Application.pdb
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Application\obj\Debug\Rh.Application.csprojResolveAssemblyReference.cache

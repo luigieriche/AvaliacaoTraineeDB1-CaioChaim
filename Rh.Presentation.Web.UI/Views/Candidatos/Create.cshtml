@@ -1,0 +1,119 @@
+﻿@model Rh.Presentation.Web.UI.ViewModels.CandidatoViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Cadastrar candidato</h2>
+
+<h4>Insira os dados corretamente para cadastrar um novo candidato.</h4>
+<hr />
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row container-form">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="col-md-5 form-pessoal">
+
+            <div>
+                @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
+
+                @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.Idade, htmlAttributes: new { @class = "control-label col-md-2" })
+
+                @Html.EditorFor(model => model.Idade, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Idade, "", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.Estado, htmlAttributes: new { @class = "control-label col-md-2" })
+
+                @Html.EditorFor(model => model.Estado, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Estado, "", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.Cidade, htmlAttributes: new { @class = "control-label col-md-2" })
+
+                @Html.EditorFor(model => model.Cidade, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Cidade, "", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.Rg, htmlAttributes: new { @class = "control-label col-md-2" })
+
+                @Html.EditorFor(model => model.Rg, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Rg, "", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.Cpf, htmlAttributes: new { @class = "control-label col-md-2" })
+
+                @Html.EditorFor(model => model.Cpf, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Cpf, "", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.Vaga, htmlAttributes: new { @class = "control-label col-md-2" })
+
+                <select class="form-control">
+                    <option></option>
+                    <option>Desenvolvedor Trainee</option>
+                    <option>Analista de testes</option>
+                </select>
+            </div>
+
+            <div class="col-md-10 button-submit">
+                <input type="submit" value="Cadastrar" class="btn btn-danger pull-right" />
+            </div>
+
+        </div>
+
+        <div class="col-md-7 form-habilidades">
+
+            <div>
+                @Html.LabelFor(model => model.Tecnologias, new { @class = "control-label col-md-2" })
+
+                <div class="col-md-10" id="SelectTecnologia">
+                    <select class="form-control">
+                        <option></option>
+                        <option>C#, ASP .NET MVC5</option>
+                        <option>Java Script</option>
+                    </select>
+                    <button type="button" class="btn btn-danger">Adicionar</button>  
+                </div>
+
+                <div class="col-md-10 tecnologias-selecionadas">
+                    <input type="text" readonly class="form-control" />
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+}
+
+<div class="col-md-12 back-to-list">
+    @Html.ActionLink("Voltar", "Index")
+</div>
+
+<div class="clearfix"></div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

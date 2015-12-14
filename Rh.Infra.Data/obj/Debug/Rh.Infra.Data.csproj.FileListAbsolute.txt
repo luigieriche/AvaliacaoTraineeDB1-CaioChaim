@@ -1,0 +1,12 @@
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\bin\Debug\Rh.Infra.Data.dll.config
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\bin\Debug\Rh.Infra.Data.dll
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\bin\Debug\Rh.Infra.Data.pdb
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\bin\Debug\Rh.Domain.dll
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\bin\Debug\Rh.Domain.pdb
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\obj\Debug\Rh.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\obj\Debug\Rh.Infra.Data.dll
+C:\Users\caiochaim\documents\visual studio 2013\Projects\AvaliacaoTecnicaDB1\AvaliacaoTecnicaDB1\Rh.Infra.Data\obj\Debug\Rh.Infra.Data.pdb
